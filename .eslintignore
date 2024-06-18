@@ -1,0 +1,4 @@
+*.js
+test
+jest.config.ts
+vite.config.ts

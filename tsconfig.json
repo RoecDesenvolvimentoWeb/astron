@@ -1,0 +1,54 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /*Output config*/
+    "outDir": "dist",
+    
+    /* Module mapping */
+    "baseUrl": "src",
+    "paths": {
+      "@atom/*": [
+        "./atoms/*"
+      ],
+      "@mols/*": [
+        "./molecules/*"
+      ],
+      "@org/*": [
+        "./organisms/*"
+      ],
+      "@temp/*": [
+        "./templates/*"
+      ],
+      "@pag/*": [
+        "./pages/*"
+      ],
+      "@asset/*": [
+        "./assets/*"
+      ]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

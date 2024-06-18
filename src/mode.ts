@@ -1,0 +1,1 @@
+export const mode: "DEV" | "PROD" = "PROD"

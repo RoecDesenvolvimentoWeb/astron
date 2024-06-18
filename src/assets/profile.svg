@@ -1,0 +1,22 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Redes sociais">
+<g id="Ellipse 18" filter="url(#filter0_d_191_2524)">
+<circle cx="28" cy="24" r="24" fill="#F7F4F8"/>
+</g>
+<g id="heroicons-outline:user">
+<path id="Vector" d="M32 19C32 20.0609 31.5786 21.0783 30.8284 21.8284C30.0783 22.5786 29.0609 23 28 23C26.9391 23 25.9217 22.5786 25.1716 21.8284C24.4214 21.0783 24 20.0609 24 19C24 17.9391 24.4214 16.9217 25.1716 16.1716C25.9217 15.4214 26.9391 15 28 15C29.0609 15 30.0783 15.4214 30.8284 16.1716C31.5786 16.9217 32 17.9391 32 19ZM28 26C26.1435 26 24.363 26.7375 23.0503 28.0503C21.7375 29.363 21 31.1435 21 33H35C35 31.1435 34.2625 29.363 32.9497 28.0503C31.637 26.7375 29.8565 26 28 26Z" stroke="#61296B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_191_2524" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.220833 0 0 0 0 0.220833 0 0 0 0 0.220833 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_191_2524"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_191_2524" result="shape"/>
+</filter>
+</defs>
+</svg>
